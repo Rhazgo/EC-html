@@ -1,380 +1,432 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Header Example</title>
+		<link rel="stylesheet" href="style.css" />
+		<style class="manrope">
+			@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+		</style>
+	</head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Header Example</title>
-  <link rel="stylesheet" href="style.css">
-  <style class="manrope">
-    @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
-  </style>
-</head>
+	<body>
+		<header class="header">
+			<div class="container">
+				<div class="nav-left">
+					<img src="/Images/Siliconlogo.svg" alt="Silicon Logo" class="logo" />
+					<span class="logo-text">Silicon</span>
+				</div>
+				<div class="nav-right">
+					<div class="darkmode">Dark Mode</div>
+					<div class="toggle-switch">
+						<label class="toggle">
+							<input type="checkbox" />
+							<span class="slider"></span>
+						</label>
+					</div>
+					<div class="menu-icon">
+						<img class="menu-icon-img" src="/Images/Button - Toggle navigation.svg" alt="Menu Icon" />
+					</div>
+					<a href="">
+						<div class="sign-in-button">
+							<img class="tinyman" src="/Images/tinyman.svg" alt="Sign in/up button" />
+							<div class="sign-in-text">Sign in / up</div>
+						</div>
+					</a>
+				</div>
+			</div>
+		</header>
 
-<body>
-  <!-- Flytta ut headern utanför page1 och page2 -->
-  <header class="header">
-    <div class="container">
-      <div class="nav-left">
-        <img src="/Images/Siliconlogo.svg" alt="Silicon Logo" class="logo">
-        <span class="logo-text">Silicon</span>
-      </div>
-      <div class="nav-right">
-        <div class="darkmode">Dark Mode
-        </div>
-        <div class="toggle-switch">
-          <img src="/Images/Input.svg" alt="Switch for dark mode">
-        </div>
-        <div class="menu-icon">
-          <img class="menu-icon-img" src="/Images/Button - Toggle navigation.svg" alt="Menu Icon">
-        </div>
-      </div>
-    </div>
-  </header>
+		<!-- Page 1 content -->
+		<div class="page" id="page1">
+			<div class="container">
+				<h1 class="main-title">
+					<span> Manage All Your </span>
+					<span>Money in One App </span>
+				</h1>
 
-  <!-- Page 1 content -->
-  <div class="page" id="page1">
-    <div class="container">
-      <h1 class="main-title">
-        <span>
-          Manage All Your
-        </span>
-        <span>Money in One App
-        </span>
-        </h1>
+				<div class="main-content">
+					<div class="main-dnb">
+						<p class="main-description" id="main-underline">
+							We offer you a new generation of the mobile banking. Save, spend & manage money in your pocket
+						</p>
 
-      <div class="main-content">
-        <div class="main-dnb">
-          
-          <p class="main-description" id="main-underline">
-            We offer you a new generation of the mobile
-            banking. Save, spend & manage money in
-            your pocket
-          </p>
-          
-          <div class="app-buttons">
-            <a href="https://www.apple.com/se/app-store/" class="app-link">
-              <img class="apple" src="/Images/appstore-light.svg.svg" alt="Download on the App Store">
-            </a>
-            <a href="https://play.google.com/store/apps?hl=sv" class="app-link">
-              <img class="google" src="/Images/googleplay-light.svg.svg" alt="Get it on Google Play">
-            </a>
-          </div>
-          <div class="discover">
-            <img src="/Images/Button.svg" alt="" class="Button">
-            <p class="discover">Discover more</p>
-          </div>
-        </div>
-        <div class="main-content-image">
-          <img src="/Images/Duomobile.svg" alt="Mobile Image">
-        </div>
-      </div>
-    </div>
-  </div>
+						<div class="app-buttons">
+							<a href="https://www.apple.com/se/app-store/" class="app-link">
+								<img class="apple" src="/Images/appstore-light.svg.svg" alt="Download on the App Store" />
+							</a>
+							<a href="https://play.google.com/store/apps?hl=sv" class="app-link">
+								<img class="google" src="/Images/googleplay-light.svg.svg" alt="Get it on Google Play" />
+							</a>
+						</div>
+						<div class="discover">
+							<img src="/Images/Button.svg" alt="" class="Button" />
+							<p class="discover">Discover more</p>
+						</div>
+					</div>
+					<div class="main-content-image">
+						<img src="/Images/Duomobile.svg" alt="Mobile Image" />
+					</div>
+				</div>
+			</div>
+		</div>
 
-  <!-- Page 2 content -->
-  <div class="page" id="page2">
-    <div class="app-features">
-      <div class="container">
-        <div class="brands-tablet">
-          <img src="/Images/Brands-tablet.svg" alt="pictures of brands">
-        </div>
-        <h2 class="features-title">App Features</h2>
-        <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin volutpat mollis egestas. Nam
-          luctus facilisis
-          ultrices. Pellentesque volutpat ligula est. Mattis fermentum, at nec lacus.</p>
+		<!-- Page 2 content -->
+		<div class="page" id="page2">
+			<div class="app-features">
+				<div class="container">
+					<div class="brands-tablet">
+						<img src="/Images/Brands-tablet.svg" alt="pictures of brands" />
+					</div>
+					<!-- brand for desktop  -->
+					<div class="brands-desktop">
+						<img src="/Images/Logos.svg" alt="pictures of brands" />
+					</div>
 
-        <div class="features">
-          <div class="first-card">
+					<div class="main-page2">
+						<div class="mobilepage2">
+							<img src="/Images/mobilepage2.svg" alt="Picture of a phone with bank card and transactions" />
+						</div>
+						<div class="container">
+							<h2 class="features-title">App Features</h2>
+							<p class="lorem">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin volutpat mollis egestas. Nam luctus
+								facilisis ultrices. Pellentesque volutpat ligula est. Mattis fermentum, at nec lacus.
+							</p>
 
-            <div class="feature-card" id="feature1">
-              <div class="icon">
-                <img src="\Images\payments.svg fill.svg" alt="Easy payment icon">
-              </div>
-              <div class="text">
-                <h3 class="features-main">Easy Payments</h3>
-                <p class="features-second">Id mollis consectetur congue egestas egestas suspendisse blandit justo.</p>
-              </div>
-            </div>
-  
-            <div class="feature-card" id="feature2">
-              <div class="icon">
-                <img src="\Images/security.svg fill.svg" alt="Security icon">
-              </div>
-              <div class="text">
-                <h3 class="features-main">Data Security</h3>
-                <p class="features-second">Augue pulvinar justo, fermentum fames aliguam accumsan vestibulum non.</p>
-              </div>
-            </div>
-  
-            
-            
-          </div>
+							<div class="features">
+								<div class="first-card">
+									<div class="feature-card" id="feature1">
+										<div class="icon">
+											<img src="\Images\payments.svg fill.svg" alt="Easy payment icon" />
+										</div>
+										<div class="text">
+											<h3 class="features-main">Easy Payments</h3>
+											<p class="features-second">
+												Id mollis consectetur congue egestas egestas suspendisse blandit justo.
+											</p>
+										</div>
+									</div>
 
-          <div class="second-card">
+									<div class="feature-card" id="feature2">
+										<div class="icon">
+											<img src="\Images/security.svg fill.svg" alt="Security icon" />
+										</div>
+										<div class="text">
+											<h3 class="features-main">Data Security</h3>
+											<p class="features-second">
+												Augue pulvinar justo, fermentum fames aliguam accumsan vestibulum non.
+											</p>
+										</div>
+									</div>
+								</div>
 
-          <div class="feature-card" id="feature3">
-            <div class="icon">
-              <img src="\Images/statistics.svg.svg" alt="Statistics icon">
-            </div>
-            <div class="text">
-              <h3 class="features-main">Cost Statistics</h3>
-              <p class="features-second">Id mollis consectetur congue egestas egestas suspendisse blandit justo.</p>
-            </div>
-          </div>
+								<div class="second-card">
+									<div class="feature-card" id="feature3">
+										<div class="icon">
+											<img src="\Images/statistics.svg.svg" alt="Statistics icon" />
+										</div>
+										<div class="text">
+											<h3 class="features-main">Cost Statistics</h3>
+											<p class="features-second">
+												Id mollis consectetur congue egestas egestas suspendisse blandit justo.
+											</p>
+										</div>
+									</div>
 
-          <div class="feature-card" id="feature4">
-            <div class="icon">
-              <img src="\Images/support.svg.svg" alt="Support icon">
-            </div>
-            <div class="text">
-              <h3 class="features-main">Support 24/7</h3>
-              <p class="features-second">A elementum, imperdiet enim, pretium etiam facilisi in aenean quam mauris.</p>
-            </div>
-          </div>
+									<div class="feature-card" id="feature4">
+										<div class="icon">
+											<img src="\Images/support.svg.svg" alt="Support icon" />
+										</div>
+										<div class="text">
+											<h3 class="features-main">Support 24/7</h3>
+											<p class="features-second">
+												A elementum, imperdiet enim, pretium etiam facilisi in aenean quam mauris.
+											</p>
+										</div>
+									</div>
+								</div>
 
-        </div>
+								<div class="thrid-card">
+									<div class="feature-card" id="feature5">
+										<div class="icon">
+											<img src="\Images/cashback.svg.svg" alt="Cashback icon" />
+										</div>
+										<div class="text">
+											<h3 class="features-main">Regular Cashback</h3>
+											<p class="features-second">
+												Sit facilisis dolor arcu, fermentum vestibulum arcu elementum imperdiet eleifend.
+											</p>
+										</div>
+									</div>
 
+									<div class="feature-card" id="feature6">
+										<div class="icon">
+											<img src="\Images/happy.svg.svg" alt="Top standards icon" />
+										</div>
+										<div class="text">
+											<h3 class="features-main">Top Standards</h3>
+											<p class="features-second">
+												Faucibus cursus maecenas lorem cursus nibh. Sociis sit risus id. Sit facilisis dolor arcu.
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 
-          <div class="thrid-card">
+		<!-- Page 3 content -->
+		<div class="page" id="page3">
+			<div class="how">
+				<div class="container">
+					<h2 class="how-main">How Does It Work?</h2>
+					<div class="bigphone">
+						<img src="/Images/Bigphoneleft.svg" alt="Picture of a phone with transactions" class="Bigphoneleft" />
+						<img src="/Images/bigphone.svg" alt="Picture of phone contacts" />
+						<img
+							src="/Images/Bigphoneright.svg"
+							alt="Picture of a phone about to transfer money"
+							class="Bigphoneright"
+						/>
+					</div>
+					<div class="bigphone-desktop">
+						<img src="/Images/Desktopphone1.svg" alt="Phone with monthly spending graph" />
+						<img src="/Images/Desktopphone2.svg" alt="Phone with credit card and transactions" />
+						<img src="/Images/Desktopphone3.svg" alt="Phone with bank account balance and contacts" />
+					</div>
+					<h3 class="how-second">
+						<span class="latest-transaction">Latest transaction history</span>
+						<span class="step3"> Step 3.</span>
+						<span class="Transfers">Transfers to people from your contact list</span>
+					</h3>
 
-            <div class="feature-card" id="feature5">
-              <div class="icon">
-                <img src="\Images/cashback.svg.svg" alt="Cashback icon">
-              </div>
-              <div class="text">
-                <h3 class="features-main">Regular Cashback</h3>
-                <p class="features-second">Sit facilisis dolor arcu, fermentum vestibulum arcu elementum imperdiet
-                  eleifend.</p>
-              </div>
-            </div>
-            
-            <div class="feature-card" id="feature6">
-              <div class="icon">
-                <img src="\Images/happy.svg.svg" alt="Top standards icon">
-              </div>
-              <div class="text">
-                <h3 class="features-main">Top Standards</h3>
-                <p class="features-second">Faucibus cursus maecenas lorem cursus nibh. Sociis sit risus id. Sit facilisis
-                  dolor arcu.</p>
-              </div>
-            </div>
+					<p class="how-small">
+						Proin volutpat mollis egestas. Nam luctus facilisis ultrices. Pellentesque volutpat ligula est. Mattis
+						fermentum, at nec lacus.
+					</p>
+					<p class="how-small-desktop">
+						Enim, et amet praesent pharetra. Mi non ante hendrerit amet sed. Arcu sociis tristique quisque hac in
+						consectetur condimentum.
+					</p>
+				</div>
+			</div>
+		</div>
 
-          </div>
+		<div class="page" id="page4-desktop">
+			<div class="container">
+				<div class="simple-top">
+					<div class="top-1-left">
+						<h2>Make your money transfer simple and clear</h2>
+						<div class="check-functions">
+							<div class="checks">
+								<img src="/Images/bx-check-circle.svg" alt="Checkbox checked" />
+								<img src="/Images/bx-check-circle.svg" alt="Checkbox checked" />
+								<img src="/Images/bx-check-circle.svg" alt="Checkbox checked" />
+							</div>
+							<div class="checked-text">
+								<p>Banking transactions are free for you</p>
+								<p>No monthly cash commission</p>
+								<p>Manage payments and transactions online</p>
+							</div>
+						</div>
+						<div class="learn-more">
+							<a class="learn-more-button" type="button" href="">Learn more</a>
+							<img src="/Images/Arrowright.svg" alt="Learn more button" />
+						</div>
+					</div>
+					<div class="top-1-right">
+						<img src="/Images/overtimegraph.svg" alt="Money over time graph" />
+					</div>
+				</div>
 
-        </div>
-      </div>
-    </div>
+				<div class="simple-bottom">
+					<div class="bottom-1-left">
+						<img src="/Images/Contacts+card.svg" alt="Picture of contact list and credit card" />
+					</div>
+					<div class="bottom-1-right">
+						<h2>Recive payment from international bank details</h2>
+						<div class="payments-icons">
+							<img src="/Images/payments.svg fill.svg" alt="Credit card icon" />
+							<img src="/Images/cashback.svg.svg" alt="Wallet icon" />
+						</div>
+						<div class="payments-underline">
+							<p>Manage your payments online. Mollis congue egestas egestas fermentum fames.</p>
+							<p>A elementur and imperdiet enim, pretium etiam facilisi aenean quam mauris.</p>
+						</div>
+						<div class="learn-more">
+							<a class="learn-more-button" type="button" href="">Learn more</a>
+							<img src="/Images/Arrowright.svg" alt="Learn more button" />
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="page" id="page5-desktop">
+			<div class="container">
+				<div class="our-clients">
+					<div class="clients">
+						<h2>Clients are Loving Our App</h2>
+					</div>
+					<img src="/Images/review-designer.svg" alt="Review from the designer" />
+					<img src="/Images/review-developer.svg" alt="Review from the developer" />
+				</div>
+			</div>
+		</div>
+		<div class="page" id="page4">
+			<div class="FAQ">
+				<div class="container">
+					<div class="faq-grid">
+						<div class="faq-grid-cell">
+							<div class="questions-introduction">
+								<h2>Any questions? Check out the FAQs</h2>
+								<p>Still have unanswered questions and need to get in touch?</p>
+							</div>
+						</div>
+						<div class="faq-grid-cell">
+							<div class="faq-list">
+								<div class="question open" id="first-question">
+									<h3 class="">Is any of my personal information stored in the App?</h3>
+									<div class="arrow-container">
+										<img class="faq-buttons" src="/Images/White arrow up.svg" alt="Extend comment button" />
+									</div>
+								</div>
 
+								<div class="question closed" id="first-question-tablet">
+									<h3 class="">Is any of my personal information stored in the App?</h3>
+									<div class="arrow-container">
+										<img class="faq-buttons" src="/Images/Extend arrow.svg" alt="Extend comment button" />
+									</div>
+								</div>
+								<div class="answer">
+									<p>
+										Nunc duis id aenean gravida tincidunt eu, tempor ullamcorper. Viverra aliquam arcu, viverra et,
+										cursus. Aliquet pretium cursus adipiscing gravida et consequat lobortis arcu velit. Nibh pharetra
+										fermentum duis accumsan lectus non. Massa cursus molestie lorem scelerisque pellentesque. Nisi,
+										enim, arcu purus gravida adipiscing euismod montes, duis egestas. Vehicula eu etiam quam tristique
+										tincidunt suspendisse ut consequat.
+									</p>
 
-  </div>
+									<p>
+										Ornare senectus fusce dignissim ut. Integer consequat in eu tortor, faucibus et lacinia posuere.
+										Turpis sit viverra lorem suspendisse lacus aliquam auctor vulputate. Quis egestas aliquam nunc purus
+										lacus, elit leo elit facilisi. Dignissim amet adipiscing massa integer.
+									</p>
+								</div>
+								<div class="question" id="second-question">
+									<h3>What Formats can I download my transaction history in?</h3>
+									<div class="arrow-container">
+										<img class="faq-buttons" src="/Images/Extend arrow.svg" alt="Extend comment button" />
+									</div>
+								</div>
 
-  <!-- Page 3 content -->
-  <div class="page" id="page3">
-    <div class="how">
-      <div class="container">
-        <h2 class="how-main">How Does It Work?</h2>
-        <div class="bigphone">
+								<div class="question" id="third-question">
+									<h3>Can I schedule future transfers?</h3>
+									<div class="arrow-container">
+										<img class="faq-buttons" src="/Images/Extend arrow.svg" alt="Extend comment button" />
+									</div>
+								</div>
 
-          <img src="/Images/Bigphoneleft.svg" alt="Picture of a phone with transactions" class="Bigphoneleft">
-          <img src="/Images/bigphone.svg" alt="Picture of phone contacts">
-          <img src="/Images/Bigphoneright.svg" alt="Picture of a phone about to transfer money" class="Bigphoneright">
+								<div class="open-question-tablet" id="">
+									<div class="faq-and-arrow">
+										<h3 class="">Can I schedule future transfers?</h3>
+										<div class="arrow-container">
+											<img class="faq-buttons" src="/Images/White arrow up.svg" alt="Extended comment button" />
+										</div>
+									</div>
+									<div class="answer-tablet">
+										Nunc duis id aenean gravida tincidunt eu, tempor ullamcorper. Viverra aliquam arcu, viverra et,
+										cursus. Aliquet pretium cursus adipiscing gravida et consequat lobortis arcu velit. Nibh pharetra
+										fermentum duis accumsan lectus non. Massa cursus molestie lorem scelerisque pellentesque. Nisi,
+										enim, arcu purus gravida adipiscing euismod montes, duis egestas. Vehicula eu etiam quam tristique
+										tincidunt suspendisse ut consequat.
+									</div>
+								</div>
 
-        </div>
-        <h3 class="how-second">
-          <span class="step3"> Step 3.</span>
-          <span class="Transfers">Transfers to people from your contact list</span>
-        </h3>
+								<div class="question" id="fourth-question">
+									<h3>When can I use Banking App services?</h3>
+									<div class="arrow-container">
+										<img class="faq-buttons" src="/Images/Extend arrow.svg" alt="Extend comment button" />
+									</div>
+								</div>
+								<div class="question" id="fifth-question">
+									<h3>Can I create my own password that is easy for me to remember?</h3>
+									<div class="arrow-container">
+										<img class="faq-buttons" src="/Images/Extend arrow.svg" alt="Extend comment button" />
+									</div>
+								</div>
+								<div class="question" id="sixth-question">
+									<h3>What happens if I forget or lose my password?</h3>
+									<div class="arrow-container">
+										<img class="faq-buttons" src="/Images/Extend arrow.svg" alt="Extend comment button" />
+									</div>
+								</div>
 
-        <p class="how-small">Proin volutpat mollis egestas. Nam luctus facilisis ultrices. Pellentesque volutpat ligula
-          est. Mattis fermentum, at nec lacus.</p>
-      </div>
-    </div>
-  </div>
+								<div class="contact">
+									<div class="btn-container">
+										<div class="contact-btn" type="button">Contact us now</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="faq-grid-cell">
+							<div class="contact-tablet">
+								<div class="contact-phone">
+									<img src="/Images/phoneicon.svg" alt="Phone Icon" />
+									<h4>Still have questions?</h4>
 
-  <div class="page" id="page4">
-    <div class="FAQ">
-      <div class="container">
-        <div class="questions-introduction">
+									<div class="contact-us">
+										<a href="" class="contact-us-blue">Contact us</a>
+										<img src="/Images/bluearrow.svg" alt="Blue arrow" />
+									</div>
+								</div>
 
-          <h2>Any questions? Check out the FAQs</h2>
-          <p>Still have unanswered questions and need to get in touch?</p>
-        </div>
-        <div class="faq-list">
-          <div class="question open" id="first-question">
-            <h3 class="">Is any of my personal information stored in the App?</h3>
-            <div class="arrow-container">
-              <img class="faq-buttons" src="/Images/White arrow up.svg" alt="Extend comment button">
-            </div>
-          </div>
+								<div class="contact-message">
+									<img src="/Images/messageicon.svg" alt="Green message icon" />
+									<h4>Don't like phone calls?</h4>
 
-          <!-- Första frågan för tabletversion -->
-          <div class="question closed" id="first-question-tablet">
-            <h3 class="">Is any of my personal information stored in the App?</h3>
-            <div class="arrow-container">
-              <img class="faq-buttons" src="/Images/Extend arrow.svg" alt="Extend comment button">
-            </div>
-          </div>
-          <div class="answer">
-
-            <p>
-              Nunc duis id aenean gravida tincidunt eu, tempor ullamcorper. Viverra
-              aliquam arcu, viverra et, cursus. Aliquet pretium cursus adipiscing gravida et consequat lobortis arcu
-              velit. Nibh pharetra fermentum duis accumsan lectus non. Massa cursus molestie lorem scelerisque
-              pellentesque. Nisi, enim, arcu purus gravida adipiscing euismod montes, duis egestas. Vehicula eu etiam
-              quam tristique tincidunt suspendisse ut consequat.
-            </p>
-
-            <p> Ornare senectus fusce dignissim ut. Integer consequat in eu tortor,
-              faucibus et lacinia posuere. Turpis sit viverra lorem suspendisse lacus aliquam auctor vulputate. Quis
-              egestas aliquam nunc purus lacus, elit leo elit facilisi. Dignissim amet adipiscing massa
-              integer.</p>
-
-          </div>
-          <div class="question" id="second-question">
-            <h3>What Formats can I download my transaction history in?</h3>
-            <div class="arrow-container">
-
-              <img class="faq-buttons" src="/Images/Extend arrow.svg" alt="Extend comment button">
-            </div>
-          </div>
-
-          <div class="question" id="third-question">
-            <h3>Can I schedule future transfers?</h3>
-            <div class="arrow-container">
-
-              <img class="faq-buttons" src="/Images/Extend arrow.svg" alt="Extend comment button">
-            </div>
-          </div>
-
-
-          <!-- Open question tablet -->
-          <div class="open-question-tablet" id="">
-            <div class="faq-and-arrow">
-
-              <h3 class="">Can I schedule future transfers?</h3>
-              <div class="arrow-container">
-                <img class="faq-buttons" src="/Images/White arrow up.svg" alt="Extended comment button">
-              </div>
-
-            </div>
-            <div class="answer-tablet">
-              Nunc duis id aenean gravida tincidunt eu, tempor ullamcorper. Viverra aliquam arcu, viverra et, cursus. Aliquet pretium cursus adipiscing gravida et consequat lobortis arcu velit. Nibh pharetra fermentum duis accumsan lectus non. Massa cursus molestie lorem scelerisque pellentesque. Nisi, enim, arcu purus gravida adipiscing euismod montes, duis egestas. Vehicula eu etiam quam tristique tincidunt suspendisse ut consequat.
-            </div>
-          </div>
-
-
-
-          <div class="question" id="fourth-question">
-            <h3>When can I use Banking App services?</h3>
-            <div class="arrow-container">
-
-              <img class="faq-buttons" src="/Images/Extend arrow.svg" alt="Extend comment button">
-            </div>
-          </div>
-          <div class="question" id="fifth-question">
-            <h3>Can I create my own password that is easy for me to remember?</h3>
-            <div class="arrow-container">
-
-              <img class="faq-buttons" src="/Images/Extend arrow.svg" alt="Extend comment button">
-            </div>
-          </div>
-          <div class="question" id="sixth-question">
-            <h3>What happens if I forget or lose my password?</h3>
-            <div class="arrow-container">
-
-              <img class="faq-buttons" src="/Images/Extend arrow.svg" alt="Extend comment button">
-            </div>
-          </div>
-          
-          <div class="contact">
-            <div class="container">
-              
-              <div class="btn-container">
-                
-                <div class="contact-btn" type="button">
-                  Contact us now
-                </div>
-              </div>
-              
-              
-            </div>
-            <div class="contact-tablet">
-              
-              <div class="contact-phone">
-                <img src="/Images/phoneicon.svg" alt="Phone Icon">
-                <h4>Still have questions?</h4>
-                
-                <div class="contact-us">
-                  
-                  <p>Contact us</p>
-                  <img src="/Images/bluearrow.svg" alt="Blue arrow">
-                </div>
-                
-              </div>
-
-
-                <div class="contact-message">
-                  <img src="/Images/messageicon.svg" alt="Green message icon">
-                  <h4>Don't like phone calls?</h4>
-                  
-                  <div class="contact-us">
-                    <p >Contact us</p>
-                    <img src="/Images/greenarrow.svg" alt="Green arrow">
-                  </div>
-                  
-                </div>
-              
-            </div>
-          </div>
-        </div>
-        
-        <div class="subscribe-section">
-          <div class="container">
-            <div class="bell-icon">
-              
-              <img src="/Images/notification-icon-1.svg fill.svg" alt="notification bell">
-            </div>
-            
-            <div class="subscribe-text">
-              
-              <h3>Subscribe to our newsletter</h3>
-              
-            </div>
-          </div>
-          
-          
-          <div class="subscribe-form">
-            
-            
-            
-            <div class="input-group">
-              <div class="email-icon">
-                <img src="/Images/EmailIcon.svg" alt="">
-              </div>
-              <input type="email" placeholder="Your email" required>
-              <button type="submit">Subscribe</button>
-            </div>
-            
-            
-            
-          </div>
-        </div>
-        
-        
-        <div class="silicon-rights">
-          <h4>© 2024 Silicon. All rights reserved.</h4>
-          <h4>Credit MadrasThemes</h4>
-        </div>
-        
-      </div>
-
-    </div>
-
-  </div>
-
-
-
-</body>
-
+									<div class="contact-us">
+										<a href="" class="contact-us-green">Contact us</a>
+										<img src="/Images/greenarrow.svg" alt="Green arrow" />
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer class="footer">
+			<div class="container">
+				<div class="subscribe-wrapper">
+					<div class="subscribe-section">
+						<div class="bell-icon">
+							<img src="/Images/notification-icon-1.svg fill.svg" alt="notification bell" />
+						</div>
+						<div class="subscribe-text">
+							<h3>Subscribe to our newsletter</h3>
+							<span class="extra-text">to stay informed about latest updates</span>
+						</div>
+					</div>
+					<div class="subscribe-form">
+						<div class="input-group">
+							<div class="email-icon">
+								<img src="/Images/EmailIcon.svg" alt="" />
+							</div>
+							<input type="email" placeholder="Your email" required />
+							<button type="submit">Subscribe</button>
+						</div>
+					</div>
+				</div>
+				<div class="silicon-rights">
+					<span class="rights">© 2024 Silicon. All rights reserved.</span>
+					<span class="credits">Credit Madras Themes</span>
+				</div>
+			</div>
+		</footer>
+	</body>
 </html>
